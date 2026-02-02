@@ -4,7 +4,7 @@ metadata:
   name: berta-web-app
   namespace: berta-activos
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: web-poc
